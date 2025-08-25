@@ -7,14 +7,16 @@
       "front_matter": true
     },
     "featureImage": {
-      "xpath": "/html/body/div[2]/div/div[1]/div[3]/img",
-      "attribute": "src",
-      "front_matter": true
+      "xpath": "/html/body/div[2]/div/div[1]/div[3]/img/@src",
+      "attribute": "",
+      "front_matter": true,
+      "download_image":true
     },
     "content": {
       "xpath": "/html/body/div[2]/div/div[1]/div[4]/div",
       "attribute": "html",
-      "front_matter": false
+      "front_matter": false,
+      "download_image":true
     },
     "date": {
       "xpath": "//time[@class='article-date']",
@@ -22,7 +24,7 @@
       "front_matter": true
     },  
     "category": {
-      "xpath": "//*[@id='page-head']/div/div[1]/nav/ol/li[last()]",
+      "xpath": "//*[@id='page-head']/div/div[1]/nav/ol/li[last()-1]",
       "attribute": "text",
       "front_matter": true
     }
