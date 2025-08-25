@@ -3,6 +3,7 @@
 A Python script to crawl web content and convert it into Markdown files suitable for static site generators like Hugo. The script extracts specified content fields using XPath, handles image downloads, and maintains proper file organization.
 
 Created by [HugoCMS](https://hugocms.net).
+[Xpath Check Tool](https://aiwriter.shopaii.net/xpath.html)
 
 ## Features
 
